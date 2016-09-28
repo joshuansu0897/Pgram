@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html>
-        <head>
-            <title> PlatziGram</title>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-            <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
-            <link rel="stylesheet" type="text/css" href="CSS/app.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-            <meta charset="utf-8" /> 
-        </head>
-        <body>
-            <section id="main-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 push-s1">
-                            <div class="row">
-                                <div class="col m5 hide-small-only">
-                                    <img class="iphone" src="Imagenes/png/CEL.png">
-                                </div>
-                                <div class="col s12 m7">
-                                <div class="row">
-                                    <div class="singup"></div>
-                                    <h1 class="platzigram">Platzigram</h1>
-                                    <form action="signup-form">
-                                        <h2>Regístrate pro</h2>
-                                        <div class="section">
-                                            <a class="btn btn-fb hiden-on-small-only">Iniciar con Facebook</a>
-                                            <a class="btn btn-fb hide-on-med-and-up">Iniciar</a>
-                                       </div>
-                                       <div class="divider"></div>
-                                       <div class="section">
-                                           <input type="email" name="email" placeholder="Correo Electronico"></input>
-                                           <input type="text" name="name" placeholder="Nombre Completo" />
-                                           <input type="text" nmae="username" placeholder="Nombre de Usuario" />
-                                           <input type="password" nmae="password" placeholder="Contraseña" />
-                                           <button class="btn waves-effect waves-light" type="submit">Regístrarte</button>
-                                       </div>
-                                    </form>
-
-                                </div>
-                                <div class="row">
-                                  <div class="login-box">
-                                    ¿Tienes cuenta? <a href="/signin">Entrar</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
+<head>
+  <title> Platzigram</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Yatra+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta charset="utf-8" /> 
+</head>
+<body>
+  <section id="main-container">
+    <div class="container">
+      <div class="row">
+        <div class="col s10 push-s1">
+          <div class="row">
+            <div class="col m5 hide-small-only">
+              <img class="iphone" src="Imagenes/png/CEL.png">
+            </div>
+            <div class="col s12 m7">
+              <div class="row">
+                <div class="signup-box">
+                  <h1 class="platzigram">Platzigram</h1>
+                  <form class="signup-form">
+                    <h2>Regístrate pro</h2>
+                    <div class="section">
+                      <a class="btn btn-fb hiden-on-small-only">Iniciar con Facebook</a>
+                      <a class="btn btn-fb hide-on-med-and-up">Iniciar</a>
                     </div>
-                </div>
-            </section>
-            <footer class="site-footer">
-            <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 l3 center-align">
-                    <!-- Dropdown Trigger -->
-                    <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Idioma</a>
-
-                    <!-- Dropdown Structure -->
-                    <ul id='dropdown1' class='dropdown-content'>
-                      <li><a href="#!">Español</a></li>
-                      <li><a href="#!">Ingles</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#!">Otaku</a></li>
-                    </ul>
-                  </div>
-                  <div class="col s12 l3 push-l6 center-align">Marca ALV</div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <input type="email" name="email" placeholder="Correo Electronico"></input>
+                      <input type="text" name="name" placeholder="Nombre Completo" />
+                      <input type="text" nmae="username" placeholder="Nombre de Usuario" />
+                      <input type="password" nmae="password" placeholder="Contraseña" />
+                      <button class="btn waves-effect waves-light" type="submit">Regístrarte</button>
+                    </div>
+                  </form>
                 </div>
               </div>
-            </footer>
+              <div class="row">
+                <div class="login-box">
+                  ¿Tienes cuenta? <a href="/signin">Entrar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+      <footer class="site-footer">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l3 center-align">
+              <!-- Dropdown Trigger -->
+              <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Idioma</a>
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-        </body>
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!">Español</a></li>
+                <li><a href="#!">Inglés</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Otaku</a></li>
+              </ul>
+            </div>
+            <div class="col s12 l3 push-l6 center-align">Marca ALV</div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+</body>
 </html>
