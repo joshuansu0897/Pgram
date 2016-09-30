@@ -7,7 +7,13 @@ gulp.task('styles', function(){
 		.src('index.scss')
 		.pipe(sass())
 		.pipe(rename('app.css'))
-		.pipe(gulp.dest('CSS'));
+		.pipe(gulp.dest('public'));
 })
 
-gulp.task('default', ['styles'])
+gulp.task('assets', function(){
+	gulp
+		.src('assets/*')
+		.pipe(gulp.dest('public'));
+})
+
+gulp.task('default', ['styles', 'assets'])
