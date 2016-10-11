@@ -1,5 +1,11 @@
-var hola=["hola","como estan","adios"];
+var page = require('page');
 
-var holaPlural = hola.map(saludo => saludo + " a todos")
+var main = document.getElementByid('main-container');
 
-console.log(holaPlural);
+page('/', function(ctx, next){
+	main.innerHTML = 'Home'; //diga Home
+})
+
+page('/signup', function(ctx, next){
+	main.innerHTML = 'Signup'; // diga signup
+})
