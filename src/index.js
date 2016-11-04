@@ -3,9 +3,11 @@ var page = require('page');
 var main = document.getElementByid('main-container');
 
 page('/', function(ctx, next){
-	main.innerHTML = 'Home'; //diga Home
+	main.innerHTML = 'Home <a href="/signup">Signup</a>'; //diga Home
 })
 
 page('/signup', function(ctx, next){
-	main.innerHTML = 'Signup'; // diga signup
+	main.innerHTML = 'Signup <a href="/">Home</a>'; // diga signup
 })
+
+page.start();
