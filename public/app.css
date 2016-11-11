@@ -6424,7 +6424,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 body {
   background: #fafafa;
   color: #125688;
-  font-family: 'Yatra One', cursive; }
+  font-family: Montserrat; }
 
 #main-container {
   margin: 30px auto; }
@@ -6445,7 +6445,7 @@ body {
   text-align: center; }
 
 .signup-box .platzigram {
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Oleo Script';
   font-size: 42px; }
 
 .signup-form {
@@ -6458,7 +6458,7 @@ body {
 
 .signup-form .btn.btn-fb, .signup-form .btn-fb.btn-large {
   background-color: #4090db;
-  font-size: .9em; }
+  font-size: .8em; }
 
 .signup-form .btn.btn-fb:hover, .signup-form .btn-fb.btn-large:hover {
   background-color: #2d6599; }
